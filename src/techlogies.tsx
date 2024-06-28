@@ -13,7 +13,7 @@ const TechlogiesData = [
     },
     {
         "id": 4,
-        "name": "TypeScript"
+        "name": "Python"
     },
     {
         "id": 5,
@@ -30,6 +30,11 @@ const TechlogiesData = [
     {
         "id": 7,
         "name": "MySQL"
+
+    },
+    {
+        "id": 7,
+        "name": "Java"
     },
     {
         "id": 8,
@@ -38,6 +43,17 @@ const TechlogiesData = [
     {
         "id": 9,
         "name": "GitHub"
+
+    },
+    {
+        "id": 10,
+        "name": "TypeScript"
+
+    },
+    {
+        "id": 11,
+        "name": "MLOps"
+
     }
 ]
 
