@@ -28,58 +28,49 @@ const TechlogiesData = [
         "name": "Firebase"
     },
     {
-        "id": 7,
-        "name": "MySQL"
-
-    },
-    {
-        "id": 7,
-        "name": "Java"
-    },
-    {
         "id": 8,
-        "name": "Git"
+        "name": "MySQL"
     },
     {
         "id": 9,
-        "name": "GitHub"
-
+        "name": "Java"
     },
     {
         "id": 10,
-        "name": "TypeScript"
-
+        "name": "Git"
     },
     {
         "id": 11,
-        "name": "MLOps"
-
-    }
-     {
+        "name": "GitHub"
+    },
+    {
         "id": 12,
-        "name": "Tensorflow"
-
-    }
+        "name": "TypeScript"
+    },
     {
         "id": 13,
-        "name": " Keras"
-
-    }
+        "name": "MLOps"
+    },
     {
         "id": 14,
-        "name": " AWS"
-
-    }
-        {
+        "name": "Tensorflow"
+    },
+    {
         "id": 15,
-        "name": " Airflow"
-
+        "name": "Keras"
+    },
+    {
+        "id": 16,
+        "name": "AWS"
+    },
+    {
+        "id": 17,
+        "name": "Airflow"
+    },
+    {
+        "id": 18,
+        "name": "MLFlow"
     }
-        {
-        "id": 15,
-        "name": " MLFlow"
-
-    }    
-]
+];
 
 export default TechlogiesData;
