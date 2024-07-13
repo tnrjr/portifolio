@@ -55,6 +55,31 @@ const TechlogiesData = [
         "name": "MLOps"
 
     }
+     {
+        "id": 12,
+        "name": "Tensorflow"
+
+    }
+    {
+        "id": 13,
+        "name": " Keras"
+
+    }
+    {
+        "id": 14,
+        "name": " AWS"
+
+    }
+        {
+        "id": 15,
+        "name": " Airflow"
+
+    }
+        {
+        "id": 15,
+        "name": " MLFlow"
+
+    }    
 ]
 
 export default TechlogiesData;
