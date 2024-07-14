@@ -31,7 +31,7 @@ const About: React.FC<Props> = ({ toggleTheme }) => {
                 </Description>
                 <Description>
                 Machine Learning: Tenho trabalhado em projetos de aprendizado de máquina que envolvem desde a construção de modelos preditivos até a implementação de pipelines de MLOps. Meu foco está em criar soluções escaláveis e eficientes.
-                Desenvolvimento de Software: Possuo ampla experiência em desenvolvimento de software, com projetos que abrangem desde aplicativos web até sistemas de backend robustos. Utilizo principalmente linguagens como Python, JavaScript e frameworks como React e Node.js.</Description>
+                Desenvolvimento de Software: Possuo ampla experiência em desenvolvimento de software, com projetos que abrangem desde aplicativos web até sistemas de backend robustos. Utilizo principalmente linguagens como Python, JavaScript, Java e frameworks como React, Vlue e SpringBoot</Description>
                 <ContainerButtons>
                     <ContactButton href="#contato">
                         <TextButton>
