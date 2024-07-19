@@ -20,7 +20,7 @@ const ProjectsData = [
         "id": 2,
         "img": jarvis,
         "title": "Jarvis  - Virtual Assistant",
-        "description": "Assistente Virtual inspirado no Filme no Homem de Ferro, desenvolvido em JavaScript",
+        "description": "Assistente Virtual inspirado no Filme do Homem de Ferro, desenvolvido em JavaScript",
         "tool": "JavaScript · HTML · CSS · WebAPI ",
         "github": "https://github.com/tn-junior/jarvis-VA.git",
         "link": "https://jarvis-2yushqxzb-tarynascimentos-projects.vercel.app/"
