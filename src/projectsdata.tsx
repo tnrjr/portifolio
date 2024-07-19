@@ -11,7 +11,7 @@ const ProjectsData = [
         "id": 1,
         "img": fomezero,
         "title": "Fome Zero - DiagramaUML",
-        "description": "Projeto desenvolvido por mim e pela minha equipe em 2021 para minha escola como TCC e estágio, com principal função dos professores aplicarem ocorrência nos alunos dentro da sala de aula através do celular.",
+        "description": "Projeto desenvolvido durante o 2º Período da faculdade, Backend feito com base nas ODS com objetivo de  doar alimnentos para uma organização ",
         "tool": "SpringBoot · Java · Azure ",
         "github": "https://github.com/tn-junior/diagramaUML-Unicap.git",
         //"link": "deploy"
@@ -20,7 +20,7 @@ const ProjectsData = [
         "id": 2,
         "img": jarvis,
         "title": "Jarvis  - Virtual Assistant",
-        "description": "Projeto desenvolvido por mim e pela minha equipe em 2021 para minha escola como TCC e estágio, com principal função dos orientadores receberem, organizarem as ocorrências dos alunos da escola.",
+        "description": "Assistente Virtual inspirado no Filme no Homem de Ferro, desenvolvido em JavaScript",
         "tool": "JavaScript · HTML · CSS · WebAPI ",
         "github": "https://github.com/tn-junior/jarvis-VA.git",
         "link": "https://jarvis-2yushqxzb-tarynascimentos-projects.vercel.app/"
