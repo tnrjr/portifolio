@@ -31,8 +31,8 @@ const Presentation: React.FC<Props> = ({ toggleTheme }) => {
                             loop: true,
                             delay: 30,
                             strings: [
-                                "< Machine Learning Enginner />",
-                                "< Data Enginner Enginner />",
+                                "< Desenvolvedor Backend />",
+                                "< Data Scientist/>",
                                 "< MLOps />",
                                 "< Desenvolvedor Full Stack />"
                             ]
