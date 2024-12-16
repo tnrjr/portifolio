@@ -26,7 +26,7 @@ function App() {
       <div className='App'>
         <GlobalStyle />
         <About toggleTheme={toggleTheme} />
-        <Technologies toggleTheme={toggleTheme} />
+        <Technologies /> {/* Remove toggleTheme se não for usado */}
         <Projects toggleTheme={toggleTheme} />
         <Contact toggleTheme={toggleTheme} />
       </div>
