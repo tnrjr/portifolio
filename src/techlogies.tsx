@@ -59,12 +59,12 @@ const TechnologiesData = [
         category: "Database",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
     },
-    {
+    /*{
         id: 17,
         name: "Airflow",
         category: "Database",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg"
-    },
+    }, */
 
     // Infraestrutura
     {
@@ -87,16 +87,16 @@ const TechnologiesData = [
     },
     {
         id: 13,
-        name: "MLOps",
+        name: "Docker",
         category: "Infraestrutura",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
     },
-    {
+    /*{
         id: 18,
         name: "MLFlow",
         category: "Infraestrutura",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
-    },
+    }, */
 
     // Machine Learning
     {
@@ -105,12 +105,12 @@ const TechnologiesData = [
         category: "Machine Learning",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
     },
-    {
+    /*{
         id: 15,
         name: "Keras",
         category: "Machine Learning",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-    }
+    } */
 ];
 
 export default TechnologiesData;
