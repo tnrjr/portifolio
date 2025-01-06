@@ -2,6 +2,8 @@ import fomezero from './assets/mock/fomezero.png';
 import jarvis from './assets/mock/jarvis.png';
 import cowrun from './assets/mock/cowrun.png';
 import stock from './assets/mock/stock.png';
+import cgd from './assets/mock/acervoPontos.png';
+import auth from './assets/mock/authenticacao.png'
 
 
 
@@ -42,6 +44,24 @@ const ProjectsData = [
         "tool": "Python",
         "github": "https://github.com/tn-junior/stock_analysis.git",
         "link": " deploy"
+    },
+    {
+        "id": 5,
+        "img": cgd,
+        "title": "CGD-Pontos-Individuais",
+        "description": "Projeto análise de dados de acões solucões",
+        "tool": "Python · Flask" ,
+        "github": "https://github.com/tn-junior/stock_analysis.git",
+        "link": " https://cgd-pontos-individuais.onrender.com/"
+    },
+    {
+        "id": 6,
+        "img": auth,
+        "title": "login-app-backend",
+        "description": "projeto desenvolvido para praticar métodos de autenticação java para uma interface de login desenvolvida em Angular",
+        "tool": "Java · Spring Boot · JWT" ,
+        "github": "https://github.com/tn-junior/stock_analysis.git",
+
     }
 ]
 
