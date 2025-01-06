@@ -31,30 +31,14 @@ const About: React.FC<Props> = ({ toggleTheme }) => {
                 <SubTitle>Sobre Mim</SubTitle>
 
                 <Description>
-                    Sou apaixonado por tecnologia e entusiasta do desenvolvimento web e backend. Atualmente, aplico minhas habilidades como <strong>Data Scientist</strong> na <strong>Prefeitura da Cidade do Recife</strong>, unindo desenvolvimento de software e análise de dados para entregar soluções escaláveis e impactantes.
+                    <h4>Desenvolvedor de Software Full Stack apaixonado por tecnologia e inovação.</h4>
                 </Description>
-
-                <Description>
-                    Minha experiência inclui:
-                </Description>
-
-                <ul style={{ marginLeft: '1.5rem', lineHeight: '1.8', color: colors.text }}>
-                    <li>
-                        <strong>Backend:</strong> Python (Flask), Java (Spring, Hibernate), Node.js, Maven e JUnit.
-                    </li>
-                    <li>
-                        <strong>Frontend:</strong> HTML5, CSS3, Bootstrap, Tailwind, JavaScript, TypeScript, React.js e Vite.js.
-                    </li>
-                    <li>
-                        <strong>Banco de Dados:</strong> MySQL, PostgreSQL e Oracle.
-                    </li>
-                    <li>
-                        <strong>Infraestrutura:</strong> Docker e Azure DevOps.
-                    </li>
-                    <li>
-                        <strong>Machine Learning:</strong> Construção de modelos preditivos, pipelines de MLOps e criação de soluções robustas.
-                    </li>
-                </ul>
+                <p>&bull; 
+                Desenvolvedor de Software com 2 anos de experiência, visando seguir carreira em desenvolvimento Full Stack, soluções de Machine Learning e Data Science, com foco em entregar soluções inovadoras alinhadas aos objetivos de negócio.</p>
+                <p>&bull; graduating in Internet Systems.</p>
+                <p>&bull; 2 year experience</p>
+               {/* <p>&bull; <a className="link" href="https://www.efset.org/cert/KjKPY3" target="_blank" rel="noopener noreferrer">C1 Advanced English Level</a></p> */}
+                <p>&bull; Studying Cloud Solutions in AWS and Events-Driven Architecture</p>
 
                 <Description>
                     Estou sempre em busca de novos desafios, aprendendo tecnologias inovadoras e buscando formas de melhorar a eficiência e a escalabilidade dos projetos em que atuo.
