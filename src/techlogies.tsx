@@ -2,15 +2,15 @@ const TechnologiesData = [
     // Frontend
     {
         id: 1,
-        name: "JavaScript",
-        category: "Frontend",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        name: "Python",
+        category: "Backend",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
     },
     {
         id: 2,
-        name: "React JS",
-        category: "Frontend",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+        name: "Java",
+        category: "Backend",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
     },
     {
         id: 5,
@@ -20,9 +20,9 @@ const TechnologiesData = [
     },
     {
         id: 12,
-        name: "TypeScript",
+        name: "Javascript",
         category: "Frontend",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
     },
 
     // Backend
@@ -35,21 +35,21 @@ const TechnologiesData = [
     },
     {
         id: 4,
-        name: "Python",
+        name: "Spring Boot",
         category: "Backend",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
     },
     {
         id: 6,
-        name: "NodeJs",
+        name: "aws",
         category: "Backend",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+        icon: "https://img.icons8.com/?size=100&id=33039&format=png&color=000000"
     },
     {
         id: 9,
-        name: "Java",
+        name: "Oracle",
         category: "Backend",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg"
     },
 
     // Database
@@ -69,21 +69,9 @@ const TechnologiesData = [
     // Infraestrutura
     {
         id: 10,
-        name: "Git",
+        name: "PostgreSQL",
         category: "Infraestrutura",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-    },
-    {
-        id: 11,
-        name: "GitHub",
-        category: "Infraestrutura",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-    },
-    {
-        id: 16,
-        name: "AWS",
-        category: "Infraestrutura",
-        icon: "https://img.icons8.com/?size=100&id=33039&format=png&color=000000"
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
     },
     {
         id: 13,
