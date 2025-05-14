@@ -36,7 +36,6 @@ const About: React.FC<Props> = ({ toggleTheme }) => {
                 <p>&bull; 
                 Desenvolvedor de Software com + de 3 anos de experiência, visando seguir carreira em desenvolvimento Full Stack, soluções de Machine Learning e Data Science e Engenharia de Dados, com foco em entregar soluções inovadoras alinhadas aos objetivos de negócio.</p>
                 <p>&bull; Formado em Sistemas para Internet na Universidade Católica de Pernambuco.</p>
-                <p>&bull; 2 Anos de Experiência</p>
                {/* <p>&bull; <a className="link" href="https://www.efset.org/cert/KjKPY3" target="_blank" rel="noopener noreferrer">C1 Advanced English Level</a></p> */}
                 <p>&bull; 
                 Estudando soluções em nuvem em AWS e arquitetura orientada a eventos</p>
