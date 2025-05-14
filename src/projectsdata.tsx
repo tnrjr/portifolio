@@ -1,9 +1,10 @@
-import fomezero from './assets/mock/fomezero.png';
+import ms from './assets/mock/food.png';
 import jarvis from './assets/mock/jarvis.png';
-import cowrun from './assets/mock/cowrun.png';
-import stock from './assets/mock/stock.png';
+import auth from './assets/mock/authenticacao.png';
+import selic from './assets/mock/apiselic.png';
 import cgd from './assets/mock/acervoPontos.png';
-import auth from './assets/mock/authenticacao.png'
+import filmes from './assets/mock/recomendafilmes.png';
+
 
 
 
@@ -11,12 +12,12 @@ import auth from './assets/mock/authenticacao.png'
 const ProjectsData = [
     {
         "id": 1,
-        "img": fomezero,
-        "title": "Fome Zero - DiagramaUML",
-        "description": "Projeto desenvolvido durante o 2º Período da faculdade, Backend feito com base nas ODS com objetivo de  doar alimnentos para uma organização ",
-        "tool": "SpringBoot · Java · Azure ",
-        "github": "https://github.com/tn-junior/diagramaUML-Unicap.git",
-        //"link": "deploy"
+        "img": ms,
+        "title": "Microserviço FOOD",
+        "description": "Projeto de Arrecadação e Gestão de Pontos de Qualificação para Cursos de Secretários Executivos da Prefeitura do Recife. Tecnologias: Python, Flask, MySQL",
+        "tool": "Python · Flask · MySQL ",
+        "github": "https://github.com/TN-Junior/CGD-Pontos-Individuais.git",
+        "link": "https://cgd-pontos-individuais.onrender.com"
     },
     {
         "id": 2,
@@ -29,19 +30,19 @@ const ProjectsData = [
     },
     {
         "id": 3,
-        "img": cowrun,
-        "title": "Cow Run",
-        "description": "Jogo inspirado no Crossy Road.",
-        "tool": "JavaScript · Html ",
-        "github": "https://github.com/tn-junior/CowRun.git",
-        "link": "https://cow-run-xi.vercel.app/"
+        "img": auth,
+        "title": "Authentication Spring Boot",
+        "description": "Sistema de autenticação feito com Spring Boot, atribui práticas de segurança com jwt entre outras.",
+        "tool": "Java · Spring Boot · JWT · MySQL ",
+        "github": "https://github.com/TN-Junior/auth-api.git",
+        //"link": ""
     },
     {
         "id": 4,
-        "img": stock,
-        "title": "Stock_Analysis",
-        "description": "Projeto análise de dados de acões solucões",
-        "tool": "Python",
+        "img": selic,
+        "title": "Api-Taxa-Selic",
+        "description": "Desafio Técnico do grupo parvi, api para extrair a taxa da selic desenvolvida com python, django, mysql, docker.",
+        "tool": "Python, Django, MySQL, Docker",
         "github": "https://github.com/tn-junior/stock_analysis.git",
         "link": " deploy"
     },
@@ -60,7 +61,16 @@ const ProjectsData = [
         "title": "login-app-backend",
         "description": "projeto desenvolvido para praticar métodos de autenticação java para uma interface de login desenvolvida em Angular",
         "tool": "Java · Spring Boot · JWT" ,
-        "github": "https://github.com/tn-junior/stock_analysis.git",
+        "github": "https://github.com/tnrjr/login-app-backend.git",
+
+    },
+    {
+        "id": 7,
+        "img": filmes,
+        "title": "MACHINE LEARNING - SISTEMA DE RECOMENDAÇÃO DE FILMES",
+        "description": "Sistemas de recomendação surgem como uma solução para esse problema, ajudando a filtrar informações e fornecer sugestões adaptadas às preferências individuais. Este projeto implementa um Sistema de Recomendação de Filmes utilizando técnicas de Machine Learning, explorando dados históricos de avaliações de usuários.",
+        "tool": "Python · Scikit Learn · Pandas · Numpy" ,
+        "github": "https://github.com/tnrjr/ML-RECOMENDACAO-FILMES.git",
 
     }
 ]
