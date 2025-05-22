@@ -1,7 +1,5 @@
 import React, { useContext } from 'react';
-import Switch from 'react-switch';
 import { ThemeContext } from 'styled-components';
-import { Link } from 'react-router-dom';
 import { 
     ContainerAbout, 
     Image, 
@@ -14,7 +12,6 @@ import {
 } from './styles';
 
 import photo from '../../assets/photo.jpeg';
-import { FiArrowRight } from 'react-icons/fi';
 
 interface Props {
     toggleTheme(): void;
@@ -31,18 +28,21 @@ const About: React.FC<Props> = ({ toggleTheme }) => {
                 <SubTitle>Sobre Mim</SubTitle>
 
                 <Description>
-                    <h4>Desenvolvedor de Software Full Stack apaixonado por tecnologia e inovação.</h4>
+                    <h4>Desenvolvedor Full Stack com experiência em projetos que integram software, dados e inovação.</h4>
                 </Description>
-                <p>&bull; 
-                Desenvolvedor de Software com + de 3 anos de experiência, visando seguir carreira em desenvolvimento Full Stack, soluções de Machine Learning e Data Science e Engenharia de Dados, com foco em entregar soluções inovadoras alinhadas aos objetivos de negócio.</p>
-                <p>&bull; Formado em Sistemas para Internet na Universidade Católica de Pernambuco.</p>
-               {/* <p>&bull; <a className="link" href="https://www.efset.org/cert/KjKPY3" target="_blank" rel="noopener noreferrer">C1 Advanced English Level</a></p> */}
-                <p>&bull; 
-                Estudando soluções em nuvem em AWS e arquitetura orientada a eventos</p>
 
-                <Description>
-                    Estou sempre em busca de novos desafios, aprendendo tecnologias inovadoras e buscando formas de melhorar a eficiência e a escalabilidade dos projetos em que atuo.
-                </Description>
+                <p>
+                    Profissional com mais de 3 anos de atuação em desenvolvimento de sistemas, com foco em soluções Full Stack, engenharia de dados e aplicações com aprendizado de máquina.
+                </p>
+                <p>
+                    Graduado em Sistemas para Internet pela Universidade Católica de Pernambuco.
+                </p>
+                <p>
+                    Estuda continuamente arquitetura de software, computação em nuvem (AWS) e sistemas distribuídos baseados em eventos.
+                </p>
+                <p>
+                    Comprometido com a entrega de soluções eficientes, escaláveis e alinhadas às necessidades do negócio.
+                </p>
 
                 <ContainerButtons>
                     <ContactButton href="#contato">

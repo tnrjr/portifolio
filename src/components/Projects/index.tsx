@@ -70,8 +70,14 @@ const Projects: React.FC<Props> = ({ toggleTheme }) => {
                             <ContainerTitle>
                                 <TitleProject>{title}</TitleProject>
                                 <SubContainerTitle>
-                                    <a target="blank" href={github}><AiFillGithub color={colors.text} size={25} /></a>
-                                    <a target="blank" href={link}><FiExternalLink color={colors.text} size={25} /></a>
+                                    <a target="_blank" rel="noopener noreferrer" href={github}>
+                                        <AiFillGithub color={colors.text} size={25} />
+                                    </a>
+                                    {link && (
+                                        <a target="_blank" rel="noopener noreferrer" href={link}>
+                                            <FiExternalLink color={colors.text} size={25} />
+                                        </a>
+                                    )}
                                 </SubContainerTitle>
                             </ContainerTitle>
 

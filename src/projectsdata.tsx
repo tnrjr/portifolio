@@ -2,7 +2,7 @@ import ms from './assets/mock/food.png';
 import jarvis from './assets/mock/jarvis.png';
 import auth from './assets/mock/authenticacao.png';
 import selic from './assets/mock/apiselic.png';
-import cgd from './assets/mock/acervoPontos.png';
+import kafkapjct from './assets/mock/kfk.png.png';
 import filmes from './assets/mock/recomendafilmes.png';
 
 
@@ -14,10 +14,10 @@ const ProjectsData = [
         "id": 1,
         "img": ms,
         "title": "Microserviço FOOD",
-        "description": "Projeto de Arrecadação e Gestão de Pontos de Qualificação para Cursos de Secretários Executivos da Prefeitura do Recife. Tecnologias: Python, Flask, MySQL",
-        "tool": "Python · Flask · MySQL ",
-        "github": "https://github.com/TN-Junior/CGD-Pontos-Individuais.git",
-        "link": "https://cgd-pontos-individuais.onrender.com"
+        "description": "Projeto de microserviços em Java com Spring Boot, incluindo API Gateway, Eureka Server, controle de pedidos e pagamentos, estruturado para escalabilidade e boas práticas.",
+        "tool": "Java · Spring Boot (Web, JPA, Cloud) · API Gateway · Eureka Server · Flyway · Maven",
+        "github": "https://github.com/tnrjr/microsservices-food.git",
+        
     },
     {
         "id": 2,
@@ -48,12 +48,11 @@ const ProjectsData = [
     },
     {
         "id": 5,
-        "img": cgd,
-        "title": "CGD-Pontos-Individuais",
-        "description": "Projeto análise de dados de acões solucões",
-        "tool": "Python · Flask" ,
-        "github": "https://github.com/tn-junior/stock_analysis.git",
-        "link": " https://cgd-pontos-individuais.onrender.com/"
+        "img": kafkapjct,
+        "title": "Projeto Kafka",
+        "description": "Este sistema é composto por dois projetos desenvolvidos com Spring Boot e integrados ao Apache Kafka",
+        "tool": "Java · Kafka · Docker" ,
+        "github": "https://github.com/tnrjr/Project-Kafka.git",
     },
     {
         "id": 6,
@@ -68,7 +67,7 @@ const ProjectsData = [
         "id": 7,
         "img": filmes,
         "title": "MACHINE LEARNING - SISTEMA DE RECOMENDAÇÃO DE FILMES",
-        "description": "Sistemas de recomendação surgem como uma solução para esse problema, ajudando a filtrar informações e fornecer sugestões adaptadas às preferências individuais. Este projeto implementa um Sistema de Recomendação de Filmes utilizando técnicas de Machine Learning, explorando dados históricos de avaliações de usuários.",
+        "description": "Este projeto implementa um Sistema de Recomendação de Filmes utilizando técnicas de Machine Learning, explorando dados históricos de avaliações de usuários.",
         "tool": "Python · Scikit Learn · Pandas · Numpy" ,
         "github": "https://github.com/tnrjr/ML-RECOMENDACAO-FILMES.git",
 
